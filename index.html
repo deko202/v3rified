@@ -48,7 +48,7 @@ img {
 }
 
 .showcase {
-	width: 100%;
+	width: ;
 	height: 100%;
 	position: relative;
 	background: url('https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
@@ -69,13 +69,13 @@ img {
 .showcase-top {
 	position: relative;
 	z-index: 2;
-	height: 90px;
+	height: 100px;
 }
 
 .showcase-top img {
-	width: 170px;
+	width: 30%;
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin-left: 0;
@@ -301,6 +301,7 @@ img {
 	display: inline-block;
 	background: var(--primary-color);
 	color: #fff;
+  border-radius: 20px;
 	padding: 0.4rem 1.3rem;
 	font-size: 1rem;
 	text-align: center;
@@ -648,20 +649,6 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
   transform: scale(1.05, 1.05);
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
 }
-
-.btn{
-  background-color:#3a9fff;
-  border-radius: 20px;
-  padding: 10px 25px;
-  color: #fff;
-  box-shadow: 0px 18px 13px -6px rgba(0, 0, 0,0.2);
-  transition: all 0.4s;
--webkit-transition: all 0.4s;
--moz-transition: all 0.4s;
--ms-transition: all 0.4s;
--o-transition: all 0.4s;
-}
-
 
 
 .btn:hover{
@@ -1186,7 +1173,7 @@ vertical-align: middle;
 }
 
 .footer__social {
-    float: right;
+    justify-content: center;
 }
 
 .footer__social-l {
@@ -1696,9 +1683,8 @@ section {
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-2 col-xs-6">
-       </div>
-      <div class="col-md-10 col-xs-6">
+   
+      <div class="col-md-10 col-xs-1">
         <div class="footer__social">
           <a href="https://twitter.com/v3rified_io" class="footer__social-l">
             <img src="https://github.com/tommyso11/v3rified/blob/main/twitter_bird_icon.png?raw=true" width="10%"/>
